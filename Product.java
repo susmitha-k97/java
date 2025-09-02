@@ -1,0 +1,66 @@
+package day1;
+public class Product {
+String name;
+double price;
+double GST;
+double discount;
+int quantity;
+public static void main(String[] args)
+{
+	Product p1=new Product();
+	p1.name="soap";
+	p1.price=100;
+	p1.GST=5;
+	p1.discount=10;
+	p1.quantity=200;
+	System.out.println("product name: "+p1.name);
+	System.out.println("product price: "+p1.price);
+	System.out.println("product GST: "+p1.GST);
+	System.out.println("product discount: "+p1.discount);
+	System.out.println("product quantity: "+p1.quantity);
+	Product p2=new Product();
+	p2.name="pen";
+	p2.price=200;
+	p2.GST=10;
+	p2.discount=20;
+	p2.quantity=10;
+	System.out.println("product name: "+p2.name);
+	System.out.println("product price: "+p2.price);
+	System.out.println("product GST: "+p2.GST);
+	System.out.println("product discount: "+p2.discount);
+	System.out.println("product quantity: "+p2.quantity);
+	Product p3=new Product();
+	p3.name="bottle";
+	p3.price=300;
+	p3.GST=15;
+	p3.discount=10;
+	p3.quantity=500;
+	System.out.println("product name: "+p3.name);
+	System.out.println("product price: "+p3.price);
+	System.out.println("product GST: "+p3.GST);
+	System.out.println("product discount: "+p3.discount);
+	System.out.println("product quantity: "+p3.quantity);
+	Product p4=new Product();
+	p4.name="book";
+	p4.price=30;
+	p4.GST=1;
+	p4.discount=15;
+	p4.quantity=5;
+	System.out.println("product name: "+p4.name);
+	System.out.println("product price: "+p4.price);
+	System.out.println("product GST: "+p4.GST);
+	System.out.println("product discount: "+p4.discount);
+	System.out.println("product quantity: "+p4.quantity);
+	Product p5=new Product();
+	p5.name="laptop";
+	p5.price=30000;
+	p5.GST=18;
+	p5.discount=9;
+	p5.quantity=7;
+	System.out.println("product name: "+p5.name);
+	System.out.println("product price: "+p5.price);
+	System.out.println("product GST: "+p5.GST);
+	System.out.println("product discount: "+p5.discount);
+	System.out.println("product quantity: "+p5.quantity);
+}
+}
